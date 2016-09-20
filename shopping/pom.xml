@@ -20,6 +20,28 @@
     <version>3.1.0</version>
     <scope>provided</scope>
 </dependency>
+<dependency>
+    <groupId>maven-taglib</groupId>
+    <artifactId>maven-taglib-plugin</artifactId>
+    <version>1.4.2</version>
+</dependency>
+
+<dependency>
+    <groupId>javax.servlet</groupId>
+    <artifactId>jstl</artifactId>
+    <version>1.2</version>
+</dependency>
+<dependency>
+  <groupId>javax.servlet.jsp</groupId>
+  <artifactId>jsp-api</artifactId>
+  <version>2.1</version>
+  <scope>provided</scope>
+</dependency>
+<dependency>
+    <groupId>taglibs</groupId>
+    <artifactId>standard</artifactId>
+    <version>1.1.2</version>
+</dependency>
   </dependencies>
   <build>
     <finalName>shopping</finalName>
